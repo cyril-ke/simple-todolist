@@ -115,7 +115,7 @@ const Todolist = () => {
                       編輯
                     </button>
                     <button
-                      className="ml-1 cursor-pointer rounded text-xs ml-1 p-1 bg-[#f47a6a] text-white"
+                      className="ml-1 cursor-pointer rounded text-xs p-1 bg-[#f47a6a] text-white"
                       onClick={() => {
                         removeItem(index);
                       }}
